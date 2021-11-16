@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		942863FB27428A2400FF7888 /* NextSpaceID */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NextSpaceID; sourceTree = BUILT_PRODUCTS_DIR; };
 		942863FE27428A2400FF7888 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9428640527428A2A00FF7888 /* PrivateMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivateMethod.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				942863FE27428A2400FF7888 /* main.swift */,
+				9428640527428A2A00FF7888 /* PrivateMethod.h */,
 			);
 			path = NextSpaceID;
 			sourceTree = "<group>";
@@ -249,6 +251,7 @@
 				DEVELOPMENT_TEAM = SFLQ3557MD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = NextSpaceID/PrivateMethod.h;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -260,6 +263,7 @@
 				DEVELOPMENT_TEAM = SFLQ3557MD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = NextSpaceID/PrivateMethod.h;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
